@@ -1,0 +1,239 @@
+python
+java
+javascript
+typescript
+c++
+c#
+go
+php
+ruby
+swift
+kotlin
+rust
+scala
+perl
+r
+dart
+objective-c
+bash
+shell
+powershell
+html
+css
+sass
+less
+tailwindcss
+bootstrap
+react
+angular
+vue.js
+next.js
+nuxt.js
+jquery
+ember.js
+backbone.js
+webpack
+babel
+vite
+gulp
+grunt
+pug
+node.js
+express.js
+django
+flask
+fastapi
+spring
+spring boot
+laravel
+asp.net
+dotnet core
+hapi.js
+koa.js
+struts
+cakephp
+symfony
+codeigniter
+phoenix
+rails
+sails.js
+micronaut
+mysql
+postgresql
+mongodb
+sqlite
+oracle
+mariadb
+redis
+cassandra
+couchdb
+dynamodb
+neo4j
+elasticsearch
+influxdb
+hbase
+firebase
+supabase
+realm
+snowflake
+bigquery
+redshift
+aws
+azure
+google cloud
+cloudflare
+digitalocean
+heroku
+netlify
+vercel
+linode
+ibm cloud
+docker
+kubernetes
+jenkins
+ansible
+terraform
+puppet
+chef
+github actions
+gitlab ci
+circleci
+travisci
+codepipeline
+argo cd
+spinnaker
+nexus
+harbor
+helm
+packer
+vault
+linux
+ubuntu
+centos
+redhat
+windows server
+macos
+freebsd
+alpine linux
+debian
+arch linux
+git
+github
+gitlab
+bitbucket
+svn
+mercurial
+jira
+confluence
+slack
+notion
+rest api
+soap api
+graphql
+openapi
+postman
+swagger
+json
+xml
+axios
+apollo
+flutter
+react native
+xamarin
+android sdk
+ios sdk
+swiftui
+jetpack compose
+cordova
+ionic
+nativescript
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+pytorch
+xgboost
+lightgbm
+huggingface
+openai
+nltk
+spacy
+mlflow
+dvc
+label studio
+wandb
+sagemaker
+vertex ai
+hadoop
+spark
+hive
+pig
+flink
+storm
+kafka
+zookeeper
+airflow
+databricks
+tableau
+power bi
+looker
+metabase
+superset
+qlik
+d3.js
+plotly
+cognos
+microstrategy
+jwt
+oauth2
+openid connect
+saml
+ldap
+kerberos
+hashicorp vault
+keycloak
+certbot
+clamav
+unity
+unreal engine
+godot
+three.js
+blender
+opengl
+vulkan
+webgl
+directx
+cryengine
+jest
+mocha
+chai
+junit
+pytest
+selenium
+cypress
+playwright
+robot framework
+testng
+nginx
+apache
+tomcat
+vs code
+intellij
+pycharm
+eclipse
+netbeans
+vim
+emacs
+figma
+sketch
+adobe xd
+zeplin
+lucidchart
+draw.io
+obsidian
+roam
+typora
+notepad++
