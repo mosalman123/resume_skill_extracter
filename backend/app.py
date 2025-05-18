@@ -3,7 +3,8 @@ from flask_cors import CORS
 import fitz  # PyMuPDF
 import re
 from flask_cors import CORS
-
+import os
+import requests
 app = Flask(__name__)
 CORS(app)
 
@@ -37,5 +38,8 @@ def extract_skills_from_resume():
     return jsonify({'skills': skills})
 
 if __name__ == '__main__':
-    app.run(debug=True ,port=5050)
+    #app.run(debug=True ,port=5050)
+    
+    port = int(os.environ.get("PORT", 5050))
+    app.run(host='0.0.0.0', port=port)
     #complete

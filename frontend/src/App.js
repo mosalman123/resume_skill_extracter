@@ -20,10 +20,10 @@ function App() {
     const formData = new FormData();
     formData.append('resume', file);
 
-          // const res = await axios.post('http://localhost:5050/extract-skills', formData);
+          // const res = await axios.post('http://localhost:5050/extract-skills', formData);  for local
 
   try {
-  const res = await axios.post('http://localhost:5050/extract-skills', formData);
+  const res = await axios.post('https://flask-production-b1382.up.railway.app/extract-skills', formData);
   setSkills(res.data.skills || []);
 } catch (err) {
   console.error(err);
