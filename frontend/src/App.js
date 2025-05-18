@@ -1,46 +1,3 @@
-// import React, { useState } from 'react';
-// import axios from 'axios';
-// import './App.css';
-
-// function App() {
-//   const [skills, setSkills] = useState([]);
-//   const [file, setFile] = useState(null);
-
-//   const handleFileChange = (e) => {
-//     setFile(e.target.files[0]);
-//   };
-
-//   const handleUpload = async () => {
-//     if (!file) return alert('Please upload a file.');
-
-//     const formData = new FormData();
-//     formData.append('resume', file);
-
-//     try {
-//       const res = await axios.post('http://localhost:5050/extract-skills', formData);
-//       setSkills(res.data.skills);
-//     } catch (err) {
-//       console.error(err);
-//       alert('Skill extraction failed.');
-//     }
-//   };
-
-//   return (
-//     <div className="container">
-//       <h2>Resume Skill Extractor</h2>
-//       <input type="file" accept=".pdf" onChange={handleFileChange} />
-//       <button onClick={handleUpload}>Extract Skills</button>
-
-//       <div className="skills">
-//         {skills.map((skill, index) => (
-//           <span key={index} className="skill-tag">{skill}</span>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 
 import React, { useState } from 'react';
@@ -63,13 +20,16 @@ function App() {
     const formData = new FormData();
     formData.append('resume', file);
 
-    try {
-      const res = await axios.post('http://localhost:5050/extract-skills', formData);
-      setSkills(res.data.skills || []);
-    } catch (err) {
-      console.error(err);
-      alert('Skill extraction failed.');
-    }
+          // const res = await axios.post('http://localhost:5050/extract-skills', formData);
+
+  try {
+  const res = await axios.post('http://localhost:5050/extract-skills', formData);
+  setSkills(res.data.skills || []);
+} catch (err) {
+  console.error(err);
+  alert('Skill extraction failed.');
+}
+
     setLoading(false);
   };
 
